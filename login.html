@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account</title>
+    <style>
+      main {
+        text-align: center;
+      }
+      form {
+        background-color: gainsboro;
+        margin-left: 40%;
+        margin-right: 40%;
+        border: 5px solid red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Your cart: 0 items</h2>
+      <p>Add some items to cart <a target="_self" href="home.html">here</a></p>
+      <p>Enter the following details to proceed to sign up</p>
+    </header>
+    <hr />
+    <main>
+      <form action="/submit" method="get">
+        <span>
+          <div>
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" />
+          </div>
+          <br />
+          <div>
+            <label for="age">Enter your age</label>
+            <input type="number" id="age" />
+          </div>
+          <br />
+          <div>
+            <label for="contact">Enter your contact no</label>
+            <input type="tel" id="contact" />
+          </div>
+          <br />
+          <div>
+            <label for="address">Enter the address</label>
+            <textarea
+              name="Address"
+              id="address"
+              placeholder="with pincode"
+            ></textarea>
+          </div>
+          <br />
+          <div>
+            <label for="category">Choose your preferred product category</label>
+            <select name="category" id="category">
+              <option value="electronics">electronics</option>
+              <option value="mobiles">Mobiles</option>
+              <option value="fashion">fashion</option>
+              <option value="grocery">grocery</option>
+              <option value="toys">Toys</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="email">enter email</label>
+            <input type="email" id="email" />
+          </div>
+          <br />
+          <div>
+            <label for="tnc">I agree to terms and conditions</label>
+            <input type="checkbox" id="tnc" required />
+          </div>
+        </span>
+        <div>
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

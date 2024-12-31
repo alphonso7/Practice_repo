@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fillcart online shopping</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      header {
+        background-color: aqua;
+        height: 20vh;
+        width: 100vw; 
+        /* position: sticky; */
+      }
+      header img{
+        padding-top : 40px;
+      }
+      .searchbar{
+        padding: 50px;
+      }
+      .nav{
+        display: inline;
+        text-align: end;
+      }
+      .nav div{
+        padding: 10px;
+      }
+      .nav a{
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      }
+      nav a:hover{
+        color: chocolate;
+      }
+      main{
+        padding: 5px;
+      }
+      .products {
+        display: flex;
+      }
+      div img {
+        margin-left: 50px;
+        margin-top: 30px;
+        width: auto;
+        height: 5cm;
+      }
+      div h3,
+      p {
+        text-align: center;
+      }
+      footer {
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Fillcart">
+      <span class="searchbar">
+        <label for="search">Search</label>
+        <input type="text" id="search" name="searched">
+      </span>
+      <nav class="nav">
+        <div>
+        <a href="">Home</a>
+        <a href="login.html">Login</a>
+        <a href="">Cart</a>
+        <a href="">Become a seller</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    <h2>Top Products to buy</h2>
+      <div class="products">
+        <div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?q=80&w=1478&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Purse"
+          />
+          <h3>Leather Purse</h3>
+          <p>Price 786</p>
+        </div>
+
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="watch"
+          />
+          <h3>Watch</h3>
+          <p>Price 400</p>
+        </div>
+        <div>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1679913792906-13ccc5c84d44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Headphones"
+          />
+          <h3>Headphones</h3>
+          <p>Price 2000</p>
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Face cream"
+          />
+          <h3>Face cream</h3>
+          <p>Price 300</p>
+        </div>
+      </div>
+      <div class="products">
+        <span>
+          <img
+            src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
+            alt="Eau de parfum"
+          />
+          <h3>Eau de parfum</h3>
+          <p>Price 500</p>
+        </span>
+        <span>
+          <img
+            src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D"
+            alt="polariod"
+          />
+          <h3>Polariod camera</h3>
+          <p>price 40403</p>
+        </span>
+      </div>
+    </main>
+    <footer>&copy; Fillcart 2024 All rights reserved</footer>
+  </body>
+</html>
